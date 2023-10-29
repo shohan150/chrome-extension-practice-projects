@@ -119,7 +119,7 @@ function gotMessage(message, sender, sendResponse) {
 
 
    // input type number
-   var numberFields = document.querySelectorAll('input[type="number"], input[type="text"][id*="code" i], input[type="text"][id*="postal" i], input[type="text"][id*="amount" i], input[type="text"][id*="zip" i]');
+   var numberFields = document.querySelectorAll('input[type="number"], input[type="text"][id*="code" i], input[type="text"][id*="postal" i], input[type="text"][id*="amount" i], input[type="text"][id*="zip" i], input[type="text"][id*="id" i], input[type="text"][id*="roll" i], input[type="text"][id*="reg" i]');
    numberFields.forEach(num => {
       let NumString = '';
       for (let i = 0; i < 4; i++) {
